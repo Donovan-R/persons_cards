@@ -1,0 +1,132 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding-top: 3rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: skyblue;
+  text-transform: capitalize;
+}
+
+.underline {
+  text-align: center;
+  width: 10%;
+  background: blue;
+  height: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: grey;
+  background-image: url(https://images.unsplash.com/photo-1447433589675-4aaa569f3e05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background: #2c5364;
+  height: 65%;
+  border-radius: 5%;
+  box-shadow: 10px 7px 28px 1px rgba(73, 224, 210, 0.75);
+  overflow: hidden;
+}
+
+img {
+  padding-top: 0;
+  margin-bottom: 15px;
+  display: block;
+  object-fit: cover;
+  height: 35%;
+  width: 20%;
+  border-radius: 50%;
+  box-shadow: 3px -4px 0px 2px rgba(0, 0, 0, 1);
+}
+
+/* img::after {
+  content: "\f10e";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  transform: translateY(25%);
+  background: black;
+  color: skyblue;
+} */
+
+.fullName {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: skyblue;
+}
+.occupation {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: aquamarine;
+}
+.about {
+  padding: 1rem 0;
+  max-width: 75%;
+}
+
+.btn-direction {
+  display: row;
+  padding-bottom: 0.5rem;
+}
+
+i {
+  font-size: 1.5rem;
+  margin: 0 1rem;
+}
+
+i:hover {
+  color: skyblue;
+}
+
+button {
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  height: 2rem;
+  margin: 1rem rem;
+  border: none;
+  background: transparent;
+}
+
+.random-btn {
+  padding: 0.5rem;
+  height: fit-content;
+  text-align: center;
+  border: solid 0.1rem rgb(72, 208, 242);
+  margin: 1rem 0.75rem;
+  border-radius: 10%;
+}
+
+.random-btn:hover {
+  background: skyblue;
+  color: darkslategray;
+  /* transform: rotate(221deg) scale(1.7) skew(-8deg) translate(-27px, 112px); */
+}
+
+/* .random-btn:active {
+  margin: 12px 0 12px 50px;
+  transform: matrix(1, 2, 3, 4, 5, 6);
+  /* transform: rotate(221deg) scale(1.7) skew(-8deg) translate(-27px, 112px); */
