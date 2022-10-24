@@ -76,3 +76,37 @@ rdmbtn.addEventListener("click", function () {
   job.textContent = reviews[randomNumber].job;
   checkRandom = randomNumber;
 });
+
+// correction avec un appel de tous les boutons querySelectorAll('button') donne const btns
+// const btn = document.querySelectorAll("button")
+// window.addEventListener{'DOMContentLoaded', () =>(counter)}
+
+// btns.forEach(function (btn) {
+//   btn.addEventListener("click", function (e) {
+//     const target = e.currentTarget.classList;
+//     if (target = contains("btn-right")){
+//     counter++;
+//       if(counter>=reviews.length){
+//         index=0
+//       }
+//   };
+// if(target.contains('btn-left')){
+//   counter--
+//   if(counter<0){
+//     counter=reviews.length-1.
+//   }
+// }
+// else{
+//   while(oldcounter===counter){
+// counter=Math...
+//   }
+// }
+// showPerson(counter);
+// })});
+
+// function showPerson(item) {
+//   identity.textContent = reviews[item].name;
+//   img.src = reviews[item].img;
+//   text.textContent = reviews[item].text;
+//   job.textContent = reviews[item].job;
+// }
