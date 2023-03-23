@@ -69,21 +69,6 @@ img {
   box-shadow: 3px -4px 0px 2px rgba(0, 0, 0, 1);
 }
 
-/* img::after {
-  content: "\f10e";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 2.5rem;
-  height: 2.5rem;
-  display: grid;
-  place-items: center;
-  border-radius: 50%;
-  transform: translateY(25%);
-  background: black;
-  color: skyblue;
-} */
-
 .fullName {
   font-size: 1.5rem;
   text-transform: capitalize;
@@ -96,7 +81,7 @@ img {
 }
 .about {
   padding: 1rem 0;
-  max-width: 75%;
+  max-width: 95%;
 }
 
 .btn-direction {
