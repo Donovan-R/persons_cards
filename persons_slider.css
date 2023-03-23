@@ -26,7 +26,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
   background: grey;
   background-image: url(https://images.unsplash.com/photo-1447433589675-4aaa569f3e05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
   background-repeat: no-repeat;
@@ -40,17 +39,22 @@ main {
   text-align: center;
   align-items: center;
   justify-content: center;
-  width: 70%;
+  width: 80%;
   background: #2c5364;
-  height: 65%;
   border-radius: 5%;
   box-shadow: 10px 7px 28px 1px rgba(73, 224, 210, 0.75);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 @media screen and (min-width: 500px) {
   .cards {
     width: 50%;
+  }
+}
+
+@media screen and (min-height: 460px) {
+  main {
+    height: 100vh;
   }
 }
 
