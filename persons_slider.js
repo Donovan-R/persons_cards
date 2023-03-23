@@ -78,7 +78,7 @@ rdmbtn.addEventListener("click", function () {
 });
 
 // correction avec un appel de tous les boutons querySelectorAll('button') donne const btns
-// const btn = document.querySelectorAll("button")
+// const btns = document.querySelectorAll("button")
 // window.addEventListener{'DOMContentLoaded', () =>(counter)}
 
 // btns.forEach(function (btn) {

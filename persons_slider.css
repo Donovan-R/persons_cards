@@ -34,17 +34,24 @@ main {
 }
 
 .cards {
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 70%;
   background: #2c5364;
   height: 65%;
   border-radius: 5%;
   box-shadow: 10px 7px 28px 1px rgba(73, 224, 210, 0.75);
   overflow: hidden;
+}
+
+@media screen and (min-width: 500px) {
+  .cards {
+    width: 50%;
+  }
 }
 
 img {
