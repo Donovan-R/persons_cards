@@ -65,7 +65,7 @@ img {
 
 @media screen and (min-width: 500px) {
   .cards {
-    width: 50%;
+    width: 60%;
   }
   img {
     height: 70px;
