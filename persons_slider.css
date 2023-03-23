@@ -46,10 +46,15 @@ main {
   /* overflow: hidden; */
 }
 
-@media screen and (min-width: 500px) {
-  .cards {
-    width: 50%;
-  }
+img {
+  padding-top: 0;
+  margin-bottom: 15px;
+  display: block;
+  object-fit: cover;
+  height: 50px;
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 3px -4px 0px 2px rgba(0, 0, 0, 1);
 }
 
 @media screen and (min-height: 460px) {
@@ -58,15 +63,14 @@ main {
   }
 }
 
-img {
-  padding-top: 0;
-  margin-bottom: 15px;
-  display: block;
-  object-fit: cover;
-  height: 35%;
-  width: 20%;
-  border-radius: 50%;
-  box-shadow: 3px -4px 0px 2px rgba(0, 0, 0, 1);
+@media screen and (min-width: 500px) {
+  .cards {
+    width: 50%;
+  }
+  img {
+    height: 70px;
+    width: 60px;
+  }
 }
 
 .fullName {
